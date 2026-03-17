@@ -30,3 +30,15 @@ Certifique-se de que a máquina onde o robô vai rodar possui:
 Clone ou copie a pasta do projeto para o seu computador. Abra o terminal na pasta do projeto e instale as dependências executando:
 ```bash
 npm install whatsapp-web.js qrcode-terminal xlsx
+
+### 3. Execução Rápida (Windows)
+Para usuários que preferem não utilizar o terminal, basta dar um duplo clique no arquivo `executar_robo.bat`. 
+* O script verificará automaticamente se as dependências estão instaladas.
+* O script iniciará a conexão com o WhatsApp.
+
+### 4. Execução via Excel
+Como operar a base de dados:
+1. Abra o arquivo Excel modelo que acompanha esta pasta.
+2. No painel de controle, selecione na lista o cliente para o qual deseja criar o grupo e enviar os arquivos.
+3. Clique no botão "Confirmar" para disparar o robô de automação.
+4. Aguarde a mensagem do formulário informando que a operação foi concluída com sucesso.
